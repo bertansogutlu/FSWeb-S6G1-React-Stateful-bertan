@@ -35,7 +35,7 @@ export default function Kareler() {
     // Eğer argüman olarak verilen id aktif kare state'indeki id ile eşleşirse, class adı 'active' olan bir string döndürecek
     // diğer durumlar için boş döndürecek.
     // Etkisini görmek için kareye sağ tıklayın ve "öğeyi inceleyin".
-	return id == aktif && 'active';
+	return id == aktif ? 'active' : ""
   };
 
   const AktifEt = id => {
