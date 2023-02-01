@@ -54,7 +54,7 @@ export default function Input() {
   const stil = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: inputDegeri.length > 10 && 'crimson'/* ADIM 2 */
+    color: inputDegeri.length > 10 ? 'crimson' : 'royalblue'/* ADIM 2 */
   };
 
   return (

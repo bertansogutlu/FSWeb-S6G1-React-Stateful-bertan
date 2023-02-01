@@ -52,7 +52,7 @@ const [donduruAcik, setDonduruAcik] = useState(true);
         true && donduruAcik && <div id='döndürücü' className='spinner'>--+--</div> /* ADIM 2 */
       }
       <button id='toggleDondurucu' onClick={toggleDondurucu}>
-         { donduruAcik ? 'Gizle' : 'Goster' }
+         { donduruAcik ? 'Gizle' : 'Göster' }
       </button>
     </div>
   );
